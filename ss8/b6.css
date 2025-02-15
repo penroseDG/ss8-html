@@ -1,7 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
 }
+
 .nhap {
     display: flex;
     align-items: center;
@@ -12,13 +19,16 @@ body {
     border-radius: 25px;
     border: 1px solid #ddd;
 }
-.left{
+
+.left {
     display: flex;
     gap: 20px;
 }
-i{
+
+i {
     font-size: 20px;
 }
+
 input {
     border: none;
     outline: none;
